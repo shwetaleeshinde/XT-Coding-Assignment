@@ -1,0 +1,287 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 !important;
+
+}
+.wrapper {
+ 
+    // position: relative;
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    height: 100%;
+ 
+    background-color: #f2f2f2;
+}
+.row {
+ 
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+ 
+    // position: relative;
+}
+
+article, figcaption, figure, footer, section
+{
+    display: block;
+}
+
+.third{
+    width: 23%;
+   margin-bottom: 15x;;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    }
+    .nine{
+    width: 74%;
+  
+    float: left;
+    padding: 5px;
+    }
+    .nine-sub{
+    width: 22.9%;
+ 
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+   
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+}
+ul.nospace li strong
+{
+    color: #020202;
+}
+ul.nospace li 
+{
+    color: #38448f;
+}
+.heading
+{
+    color: #38448f;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    font-size: 1em;
+}
+.sidebar
+{
+    background-color: #fff;
+    padding: 15px;
+}
+.sidebar h3
+{
+font-size: 1.4em;
+}
+.inline {
+    display: inline-block;
+}
+.inline * {
+    display: inline-block;
+}
+.btn, .btn.inverse:hover {
+    color: #FFFFFF;
+    background-color: #c5e09b;
+    border-color: #8EC837;
+}
+.active
+{
+    background-color: #7cba01;
+    border-radius: 6px;
+    padding: 8px 22px 8px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+.btn {
+    border-radius: 6px;
+}
+.btn, button.btn {
+    display: inline-block;
+    padding: 8px 22px 8px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+.pushright li {
+    margin: 0 27px 20px 0;
+}
+.heading1 
+{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    padding: 0 0 5px 0;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.grid-3 > div {
+    margin-bottom: 20px;
+}
+.clear
+{
+    clear: both;
+}
+.footertext
+{
+
+    background-color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+}
+.details
+{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.nospace {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@media (min-width: 320px) and (max-width: 560px){
+    .third{
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+    }
+    .nine{
+    width: 99%;
+    height: auto;
+    background-color: #ccc;
+    padding: 5px;
+    }
+    .nine-sub{
+    width: 99%;
+    height: auto;
+    background-color: #fff;
+    float: none;
+    margin-bottom: 10px;
+    }
+    }
+    @media (min-width: 561px) and (max-width: 990px){
+    .third{
+    height: auto;
+    }
+    .nine{
+    width:71%;
+    height: auto;
+    padding: 5px;
+ 
+    }
+    .nine-sub{
+    width: 47%;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 10px;
+    }
+    .pushright li {
+        margin: 0 6px 12px 0;
+    }
+    .btn, button.btn {
+    
+        padding: 8px 18px 8px;
+    }
+    .active
+{
+  
+    padding: 8px 18px 8px;
+}
+    }
+    @media (min-width: 991px) and (max-width: 1024px){
+    .third{
+    width: 22.5%;
+  
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    }
+    .nine{
+    width: 74%;
+ 
+    float: left;
+    padding: 5px;
+    }
+    .nine-sub{
+    width: 23.2% !important;
+   
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+    .pushright li {
+        margin: 0 6px 12px 0;
+    }
+    .btn, button.btn {
+    
+        padding: 8px 18px 8px;
+    }
+    .active
+{
+  
+    padding: 8px 18px 8px;
+}
+    }
+    @media (min-width: 1025px) and (max-width: 1240px){
+    .third{
+    width: 22.5%;
+  
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    }
+    .nine{
+    width: 74%;
+  
+    float: left;
+    padding: 5px;
+    }
+    .nine-sub{
+    width: 23.5% !important;
+   
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+    .pushright li {
+        margin: 0 6px 12px 0;
+    }
+    .btn, button.btn {
+    
+        padding: 8px 18px 8px;
+    }
+    .active
+{
+  
+    padding: 8px 18px 8px;
+}
+}
+
